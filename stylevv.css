@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+div .dresstypes{
+    margin: 8px;
+    border: 2px groove black;
+    width: 200px;
+}
+div .dresstypes:hover{
+    border: 2px solid aqua;
+}
+div.discr{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}

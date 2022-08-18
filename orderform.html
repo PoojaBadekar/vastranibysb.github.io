@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <!-- <link rel="stylesheet" href="orderform.css"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="faviconv/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="faviconv/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="faviconv/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="faviconv/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="faviconv/favicon-16x16.png">
+    <link rel="manifest" href="faviconv/site.webmanifest">
+    <link rel="mask-icon" href="faviconv/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#f7f2f3">
+    <style>
+        form {
+            color: black;
+            font-size: larger;
+            padding: 50px 20px 20px 200px;
+            margin: 50px 300px 0px 300px;
+        }
+
+        label {
+            color:black;
+            font-size: larger;
+            font-weight: 600;
+        }
+
+        input {
+            border: 2px solid black;
+            border-color: black;
+            border-radius: 5px;
+        }
+
+        body {
+            background-image: url(https://media.istockphoto.com/photos/fashion-designer-is-adjusting-the-wedding-dress-picture-id1047561290?k=20&m=1047561290&s=612x612&w=0&h=k3O4-a9lirkiJlZQzcdxarJjubs-nRCvy78rQ3jze70=);
+            /* background-image: url(https://wallpaperaccess.com/full/2149517.jpg); */
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+
+        .a{
+            background-color:black;
+            font-size: large;
+        }
+
+        h1 {
+            color: rgb(209, 158, 96);
+            text-transform: capitalize;
+            text-decoration-line: underline;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <form action="PlaceOrder.html" autocomplete="off">
+
+        <h1>Details for customizations!</h1>
+
+        <label for="n1">Name:</label>
+        <input type="text" Name id="n1" placeholder="Enter your name"><br>
+
+        <label for="mail">Mail Id:</label>
+        <input type="email" Mail Id: id="mail" placeholder="abcd@gmail.com"><br>
+        <label for="con"> Mobile :</label>
+        <input type="text" Mobile no: id="con"><br>
+
+        <label for="age" >age:</label>
+        <input type="number" Age: id="age"> <br>
+        
+        <label for="gen">Gender: </label>
+        <input type="radio" id="gen"> Fenale
+        <input type="radio" id="gen"> Male<br>
+        
+        <label for="color">Color you prefer:</label>
+        <input type="color" id="color"><br>
+        
+        <label for="ordertype"> Order Type:</label><br>
+        <input type="checkbox" id="ordertype">Rental <br>
+        <input type="checkbox" id="ordertype">Ready Made <br>
+        <input type="checkbox" id="ordertype">Replica <br>
+        <input type="checkbox" id="ordertype">Customized <br>
+
+        <label for="replicaImg"> Replica Image:</label>
+        <input type="file" id="replicaImg"><br>
+        
+        <label for="Submit"></label>
+        <input type="submit" id="submit">
+
+        <button type="reset">Reset</button>
+<!-- 
+        <label for="reset"></label>
+        <input type="reset" id="reset"> -->
+
+    </form>
+</body>
+</html>
